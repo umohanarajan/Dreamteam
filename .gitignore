@@ -1,0 +1,6 @@
+echo "# Dreamteam" >> README.md
+git init
+git add test.html
+git commit -m "first commit"
+git remote add origin https://github.com/Esma03/Dreamteam.git
+git push -u origin master
