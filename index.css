@@ -1,0 +1,61 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'museo-sans-300';
+	font-size: 18px;
+	color: #ffffff;
+	background: black;
+}
+
+nav {
+
+	font-size: 30px;
+	font-color: gray;
+
+}
+
+
+header {
+	width: 100%;
+	padding: 128px 0px;
+	background-color: gray;
+	background-image: url("http://www.tvoppum.de/images/Turnen/basketball.jpg");
+	background-position: 0px 0px;
+	background-blend-mode: multiply;
+	background-repeat:  repeat;
+}
+
+header > div {
+	display: block;
+	margin: 0px auto;
+	padding: 64px;
+	width: 100%;
+	max-width: 640px;
+	color: #ffffff;
+	background: rgba(0,0,0,0.1) url('../img/heidelberg.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 8px;
+	text-align: center;
+}
+
+
+header h1 {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'source-sans-700';
+	font-size: 40px;
+}
+
+header h1 {
+	color: gray;
+}
+
+
+
+
+
+	
+
+
