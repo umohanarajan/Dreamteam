@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+	<meta http-equiv="Content-Type"
+		="text/html;charset=UTF-8">
+	<link href="waw.css" type="text/css" rel="stylesheet">
+	<title>Spielerhinzufügen</title>
+</head>
+
+<body>
+	<nav>
+	 <ul>
+		<li><a href="file:///C:/Users/Ubi/Desktop/Startseite.html">Startseite</a></li>
+		<li><a href="file:///C:/Users/Ubi/Desktop/Spielerhinzufügen.html">Spielerhinzufügen</a></li>
+		<li><a href="file:///C:/Users/Ubi/Desktop/Spielerliste.html">Spielerliste</a></li>
+	 </ul>
+	</nav>
+		<h1>Spieler Formular</h1>
+		<form method="post" action="http://kittey.rockz:1111/api/V1/addPlayer">
+		<table >
+			<tr>
+				<td>Vorname:</td>
+				<td><input type="text" name="vorname"></td>
+			</tr>
+			<tr>
+				<td>Nachname:</td>
+				<td><input type="text" name="nachname"></td>
+			</tr>
+			<tr>
+				<td>Verein:</td>
+				<td><input type="text" name="verein"></td>
+			</tr>
+			<tr>
+				<td>Headcoach:</td>
+				<td><input type="text" name="hcoach"></td>
+			</tr>
+			<tr>
+				<td>Assistant Coach:</td>
+				<td><input type="text" name="acoach"></td>
+			</tr>
+			<tr>
+				<td>Aktiv:</td>
+				<td><input type="checkbox" name="aktiv" value="ja"/>Ja
+					 <input type="checkbox" name="aktiv" value="nein"/>Nein</td>
+			</tr>
+			<tr>
+				<td>Position:</td>
+				<td><select name="position" size="1">
+				<option value="center">Center</option>
+				<option value="guard">Guard</option>
+				<option value="power forward">Power Forward</option>
+				<option value="wing" selected="selected">Wing</option>
+				<option value="small forward">Small Forward</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Rückennumer:</td>
+				<td><input type="number" name="jahr"></td>
+			</tr>
+			<tr>
+				<td>Geburtsjahr:</td>
+				<td><input type="datetime"></td>
+			</tr>
+			<tr>
+				<td>Favorit</td>
+				<td><input type="checkbox" name="favorit" value= ""/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a href="htpp://kittey.rockz:1111/api/V1/addPlayer"><input type="button" name="Start" value="Absenden"></a></button></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+
+</html>
